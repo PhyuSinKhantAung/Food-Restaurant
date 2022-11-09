@@ -1,0 +1,32 @@
+@use "./custom" as *;
+@import "./variables"; // when connect another file name underscore first
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Hero */
+header {
+  min-height: 100vh;
+  background: url(/imgs/home-background.jpg) center/cover no-repeat;
+}
+
+.socials :hover {
+  cursor: pointer;
+  color: $secondary;
+  transform: scale(0.8);
+  transition: all 0.4s ease-in;
+}
+.cards {
+  // border-radius: 30px;
+  // // background: #e0e0e0;
+  // box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+.yellowDesign {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+}

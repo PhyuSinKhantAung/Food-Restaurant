@@ -1,0 +1,18 @@
+$red-color: #d72323;
+$darker-red-color: #85203b;
+$text-color: #fff;
+$yellow-color: #fff98c;
+$gray-color: #1b1b1b;
+// Theme colors
+$primary: $red-color;
+$secondary: $yellow-color;
+$danger: $darker-red-color;
+$light: $text-color;
+$black: $gray-color;
+// customizes
+$navbar-dark-color: $light;
+$navbar-dark-active-color: $yellow-color;
+$navbar-dark-hover-color: $yellow-color;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/variables";
