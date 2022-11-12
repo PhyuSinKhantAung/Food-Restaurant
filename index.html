@@ -1,157 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fast Food</title>
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <!-- Font awesome -->
-    <link
-      rel="stylesheet"
-      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
-    />
-    <!-- Source css -->
-    <link rel="stylesheet" href="/assets/css/style.css" />
-  </head>
-  <body>
-    <!-- Header  -->
-    <header id="home" >
-      <!-- //////////Nav bar start//////// -->
-      <nav class="navbar navbar-expand-lg navbar-dark shadow">
-        <div class="container">
-          <!-- brand logo -->
-          <a class="navbar-brand" href="#">
-            <i class="fa-solid fa-burger fs-2"></i>
-          </a>
 
-          <!-- toggle button -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fast Food</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+  <!-- Source css -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
 
-          <!-- menus links -->
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Categories</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- socials links -->
-          <div
-            class="socials fs-5 text-light d-lg-flex justify-content-end d-none"
-          >
-            <i class="fa-brands navbar-nav fa-facebook me-4"></i>
-            <i class="fa-brands navbar-nav fa-instagram me-4"></i>
-            <i class="fa-brands navbar-nav fa-viber me-4"></i>
-            <i class="fa-brands navbar-nav fa-telegram me-4"></i>
-          </div>
-        </div>
-      </nav>
-      <!-- //////////Nav bar end///////// -->
-
-      <!-- ///////// Banner ////////// -->
+<body>
+  <!-- Header  -->
+  <header id="home">
+    <!-- //////////Nav bar start//////// -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <div class="row align-items-center my-auto">
-          <div class="col-lg-6 col-12">
-            <div class="text-start my-4 my-lg-0">
-              <h1 class="display-2 fw-semibold text-secondary">
-                Good Food's Good Mood
-              </h1>
-              <h4 class="text-light">Here's all you want everything.</h4>
-              <p class="text-light">
+        <!-- brand logo -->
+        <a class="navbar-brand" href="#">
+          <i class="fa-solid fa-burger fs-2"></i>
+        </a>
+
+        <!-- toggle button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- menus links -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#category">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- socials links -->
+        <div class="socials fs-5 text-light d-lg-flex justify-content-end d-none">
+          <i class="fa-solid fa-magnifying-glass me-4"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- //////////Nav bar end///////// -->
+
+    <!-- ///////// Banner ////////// -->
+    <div class="container">
+      <div class="row align-items-center my-auto">
+        <div class="col-lg-6 col-12">
+          <div class="text-start my-4 my-lg-0">
+            <h1 class="display-2 fw-semibold text-secondary">
+              Good Food's Good Mood
+            </h1>
+            <h4 class="text-light">Here's all you want everything.</h4>
+            <p class="text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptas distinctio delectus adipisci iusto, dignissimos beatae
+              nisi tempore iste veritatis eos, ab maiores consequuntur, amet
+              praesentium ipsa excepturi placeat obcaecati pariatur.
+            </p>
+            <button class="btn-secondary btn rounded-0">Order now</button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="right_side">
+            <img src="/imgs/home-side.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ////////// Banner //////////// -->
+
+    <!-- ///////////Recommended cards///////////// -->
+    <div class="container cards">
+      <div class="row p-4">
+        <div class="col-12 col-lg-4 col-md-7 mb-lg-0 mx-auto ">
+          <!-- First -->
+          <div class="card bg-black text-black " style="height: 100%">
+            <div class="card-body bg-secondary rounded-top rounded-circle">
+              <h3 class="card-title text-center">Smoky Chicken Burger</h3>
+              <p class="card-text text-muted text-center px-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas distinctio delectus adipisci iusto, dignissimos beatae
-                nisi tempore iste veritatis eos, ab maiores consequuntur, amet
-                praesentium ipsa excepturi placeat obcaecati pariatur.
-              </p>
-              <button class="btn-secondary btn rounded-0">Order now</button>
+                Optio, velit!<a href="" class="px-2">View more.</a></p>
             </div>
+            <img src="/imgs/Burger.png" class="card-img-bottom w-75 overflow-hidden mx-auto" alt="Recommended food">
           </div>
-          <div class="col-lg-6 col-12">
-            <div class="right_side">
-              <img src="/imgs/home-side.png" alt="" class="img-fluid" />
+        </div>
+        <div class="col-12 col-lg-4 col-md-7 my-5 m-lg-0 mx-auto">
+          <!-- Second -->
+          <div class="card bg-black text-black " style="height: 100%">
+            <div class="card-body bg-secondary rounded-top rounded-circle">
+              <h3 class="card-title text-center">Tasty Fries Set</h3>
+              <p class="card-text text-muted text-center px-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Optio, velit!<a href="" class="px-2">View more.</a></p>
             </div>
+            <img src="/imgs/chicken.png" class="card-img-bottom w-100 overflow-hidden mx-auto " alt="Recommended food">
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-7 mb-lg-0 mx-auto">
+          <!-- Third -->
+          <div class="card bg-black text-black" style="height: 100%">
+            <div class="card-body bg-secondary rounded-top rounded-circle">
+              <h3 class="card-title text-center">Beautiful Sofy Sandwich</h3>
+              <p class="card-text text-muted text-center px-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Optio, velit!<a href="" class="px-2">View more.</a></p>
+            </div>
+            <img src="/imgs/sandwich.png" class=" card-img-bottom w-75 overflow-hidden mx-auto" alt="Recommended food">
           </div>
         </div>
       </div>
+    </div>
+    <!-- //////////Recommended Cards///////////// -->
+  </header>
+
+  <!-- Category -->
+  <section id="category">
+    <div class="container my-4">
+      <!-- Category Title -->
+      <div class="category_title px-lg-5 mx-lg-5 w-auto ">
+        <h1 class="text-center display-2 ">We offer people best ways to eat best food.</h1>
+        <h2 class="text-center mt-3">
+          <span class="text-primary">C</span>ategory
+        </h2>
+        <div class="bar mx-auto"></div>
 
       </div>
-      <div class="container cards mt-4" >
-        <div class="row">
-            <div class="col-12 col-lg-4">
-              <div class="card bg-black text-black" style="height: 25em;" >
-                <div class="card-body bg-secondary rounded-top rounded-circle">
-                  <h3 class="card-title text-center">Smoky Chicken Burger</h3>
-                  <p class="card-text text-muted text-center px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, velit!<a href="" class="px-2">View more.</a></p>
-                  <!-- <a href="" class="px-2">View more.</a> -->
-                </div>
-                <img src="/imgs/Burger.png" class="card-img-bottom w-75 overflow-hidden mx-auto" alt="...">
+      <div class="btn_container  d-flex justify-content-start justify-content-md-center mt-2 py-4">
+        <!-- <button class="customizeBtn">All</button>
+        <button class="mx-2 customizeBtn">Burgers</button>
+        <button class=" mx-2 customizeBtn">Toasts</button>
+        <button class=" mx-2 customizeBtn">Fries</button>
+        <button class="customizeBtn">Drinks</button> -->
+      </div>
+      <!-- Menus -->
+      <div class="menu_container row my-5">
+        <!-- Item Container -->
+        <!-- <div class="col-lg-6  mb-4 col-12 col-md-6">
+          <div class="item_container row">
+            <div class="col-5">
+              <div class=" menuPhoto position-relative">
+                <img src=${item.img} class="img-fluid img-thumbnail imgPhoto " width="200" height="200"
+                  alt=${item.category}>
+                <a
+                  class="viewDetails fw-bold text-decoration-none position-absolute text-light opacity-0 top-50 start-50 translate-middle">
+                  <button class="btn btn-primary rounded-0 p-1">View details</button>
+                </a>
               </div>
             </div>
-            <div class="col-12 col-lg-4">
-              <div class="card bg-black text-black" style="height: 25em;" >
-                <div class="card-body bg-secondary rounded-top rounded-circle">
-                  <h3 class="card-title text-center">Tasty Fries Set</h3>
-                  <p class="card-text text-muted text-center px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, velit!<a href="" class="px-2">View more.</a></p>
-                  <!-- <a href="" class="px-2">View more.</a> -->
-                </div>
-                <img src="/imgs/chicken.png" class="card-img-bottom w-100 overflow-hidden mx-auto " alt="...">
+            <div class="item_text col-7">
+              <div class="item_title d-flex justify-content-between">
+                <h5>${item.title}</h5>
+                <span class="text-primary fw-bold fs-5 ">${item.price} $</span>
               </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <div class="card bg-black text-black" style="height: 25em;">
-                <div class="card-body bg-secondary rounded-top rounded-circle">
-                  <h3 class="card-title text-center">Beautiful Sofy Sandwich</h3>
-                  <p class="card-text text-muted text-center px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, velit!<a href="" class="px-2">View more.</a></p>
-                  <!-- <a href="" class="px-2">View more.</a> -->
-                </div>
-                <img src="/imgs/sandwich.png" class=" card-img-bottom w-75 overflow-hidden mx-auto" alt="...">
+              <hr class="p-0 m-0">
+              <div class="text_description">
+                <p class="m-0 text-muted">${item.desc}</p>
               </div>
             </div>
           </div>
-  
-        </div>
-    </header>
+        </div> -->
+      </div>
+  </section>
+  <!-- Arrow up -->
+  <a href="#home" class="arrowUp">
+    <i class="fa-solid fa-arrow-up text-light fs-5 text-center"></i>
+  </a>
+  <!-- Bootstrap Js -->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- JavaScript -->
+  <script src="/assets/js/script.js"></script>
+</body>
 
-
-
-    <!--  -->
-    <!-- Bootstrap Js -->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- JavaScript -->
-    <script src="/assets/js/script.js"></script>
-  </body>
 </html>
